@@ -294,7 +294,7 @@ button{
 	height: 30px;
 	position: absolute;
 	bottom: 0;
-	background: url(../images/section2_bg2.jpg) no-repeat center top;
+	background: url(../images/section2@_bg2.jpg) no-repeat center top;
 }
 #section2 h2{
 	height: 76px;
@@ -668,7 +668,7 @@ button{
 	background: url(../images/bg7-box.png) no-repeat top center/100% 100%;
 
 	/* display: none; */
-	/* transition: .7s ease-out; */
+	transition: .7s ease-out;
 	width: 0;
 	opacity: 0;
 
@@ -720,7 +720,7 @@ button{
 	width: 858px;
 	height: 495px;
 	position: absolute;
-
+	transition: .3s;
 }
 #section8 li img{
 	width: 100%;
