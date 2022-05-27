@@ -1,19 +1,26 @@
-/* 样式重置 */
-body,p,h1,h2,h3{
+body,
+p,
+h1,
+h2,
+h3 {
 	margin: 0;
 }
-ul{
+
+ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-a{
+
+a {
 	text-decoration: none;
 }
-img{
+
+img {
 	vertical-align: middle;
 }
-button{
+
+button {
 	border: none;
 	background: none;
 	padding: 0;
@@ -22,27 +29,32 @@ button{
 }
 
 /* top */
-#top{
+#top {
 	height: 40px;
 	background: #fff;
 	border-bottom: 1px solid #f5f5f5;
 }
-#top .container{
+
+#top .container {
 	width: 980px;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-between;	/* 两端对齐 */
+	justify-content: space-between;
+	/* 两端对齐 */
 
 }
-#top .left{
+
+#top .left {
 	position: relative;
 }
-#top .logo{
+
+#top .logo {
 	margin-right: 20px;
 	position: relative;
 	z-index: 11;
 }
-#top .left span a{
+
+#top .left span a {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -50,31 +62,40 @@ button{
 
 	display: none;
 }
-#top .left span:hover a{
+
+#top .left span:hover a {
 	display: block;
 }
-#top .right{
+
+#top .right {
 	display: flex;
 	position: relative;
 }
-#top .right h3{
+
+#top .right h3 {
 	color: #464646;
 	font-size: 14px;
 	line-height: 40px;
 	font-weight: normal;
-	position: relative;	/* 放小图标 */
+	position: relative;
+	/* 放小图标 */
 }
-#top .right h3 a{
+
+#top .right h3 a {
 	color: #464646;
 }
-#top .right h3 a:hover{
+
+#top .right h3 a:hover {
 	color: #ff4e00;
 }
-#top .right .text1{
+
+#top .right .text1 {
 	margin-right: 20px;
-	padding-left: 30px;	/* 把小图标的位置空出来 */
+	padding-left: 30px;
+	/* 把小图标的位置空出来 */
 }
-#top .right .text1::before{
+
+#top .right .text1::before {
 	content: '';
 	width: 30px;
 	height: 30px;
@@ -84,11 +105,14 @@ button{
 	left: 0;
 	top: 5px;
 }
-#top .right .text2{
-	padding-right: 25px;	/* 把小图标的位置空出来 */
+
+#top .right .text2 {
+	padding-right: 25px;
+	/* 把小图标的位置空出来 */
 	cursor: pointer;
 }
-#top .right .text2::before{
+
+#top .right .text2::before {
 	content: '';
 	width: 30px;
 	height: 30px;
@@ -100,7 +124,8 @@ button{
 	transform: rotate(90deg);
 	opacity: .1;
 }
-#top .right iframe{
+
+#top .right iframe {
 	/* display: none; */
 	width: 708px;
 	height: 582px;
@@ -111,44 +136,52 @@ button{
 
 	display: none;
 }
-#top .right .text2:hover iframe{
+
+#top .right .text2:hover iframe {
 	display: block;
 }
 
-#nav{
+#nav {
 	height: 131px;
 	background: url(../images/nav_bg.png) center no-repeat;
 
 	position: relative;
 	z-index: 9;
 }
-#nav .container{
+
+#nav .container {
 	width: 1200px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
-#nav .title{
+
+#nav .title {
 	display: flex;
 }
-#nav .title a{
+
+#nav .title a {
 	margin: 4px 20px 0 0;
 }
-#nav .title h1{
+
+#nav .title h1 {
 	font-size: 24px;
 	color: #ffb400;
 	margin-top: 24px;
 }
-#nav .title h1 span{
+
+#nav .title h1 span {
 	display: block;
 	font-size: 14px;
 	color: #fff;
 	font-weight: normal;
 }
-#nav ul{
+
+#nav ul {
 	display: flex;
 }
-#nav ul a{
+
+#nav ul a {
 	display: block;
 	width: 120px;
 	height: 100px;
@@ -157,13 +190,14 @@ button{
 	color: #fff;
 	text-align: center;
 }
-#nav ul a:hover{
+
+#nav ul a:hover {
 	color: #ffb400;
 	background: url(../images/navHover_bg.png) 0 -48px;
 }
 
 /* section1 */
-#section1{
+#section1 {
 	height: 920px;
 	margin-top: -30px;
 	background: url(../images/section1_bg2.jpg) no-repeat center bottom;
@@ -171,13 +205,15 @@ button{
 	position: relative;
 	z-index: 8;
 }
-#section1 .container{
+
+#section1 .container {
 	height: 890px;
 	background: url(../images/section1_bg1.jpg) center top no-repeat;
 
 	position: relative;
 }
-#section1 .btn{
+
+#section1 .btn {
 	width: 232px;
 	height: 78px;
 	position: absolute;
@@ -190,22 +226,26 @@ button{
 
 	/* font-size: 0; */
 }
-#section1 .video{
+
+#section1 .video {
 	position: relative;
 	top: 654px;
 	display: flex;
 	justify-content: center;
 }
-#section1 .play{
+
+#section1 .play {
 	width: 283px;
 	height: 163px;
 	background: url(../images/video-bg.png);
 	display: flex;
 	justify-content: center;
-	align-items: center;	/* 垂直方向居中 */
+	align-items: center;
+	/* 垂直方向居中 */
 	position: relative;
 }
-#section1 .play::after{
+
+#section1 .play::after {
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -214,16 +254,378 @@ button{
 	height: 61px;
 	background: url(../images/play-btn.png);
 	margin: -30px 0 0 -30px;
+	animation: breathing 1s linear infinite alternate;
 }
-#section1 .erweima{
+
+@keyframes breathing {
+	0% {
+		transform: scale(.9);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+#section1 .erweima {
 	width: 156px;
 	height: 156px;
 	margin: 0 15px;
 }
-#section1 .down{
+
+#section1 .down {
 	width: 229px;
 	height: 156px;
 	display: flex;
-	flex-wrap: wrap;	/* 子元素换行 */
-	align-content: space-between;	/* 多行元素的对齐方式，两端对齐（一个顶天，一个顶地） */
+	flex-wrap: wrap;
+	/* 子元素换行 */
+	align-content: space-between;
+	/* 多行元素的对齐方式，两端对齐（一个顶天，一个顶地） */
+}
+
+/* 弹出视频 */
+.dialog {
+	width: 1063px;
+	height: 608px;
+	padding: 9px 8px;
+	box-sizing: border-box;
+	/* 变成怪异盒模型 */
+	background: url(../images/dia-bg.png) no-repeat;
+
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	z-index: 20;
+
+	display: none;
+}
+
+.dialog .movie {
+	height: 588px;
+	overflow: hidden;
+}
+
+.shadow {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, .7);
+	z-index: 19;
+
+	display: none;
+}
+
+.closeBtn {
+	position: absolute;
+	right: -102px;
+	top: 7px;
+	width: 75px;
+	height: 75px;
+	cursor: pointer;
+	background: url(../images/dia-close.png);
+}
+
+#section2 {
+	height: 883px;
+	position: relative;
+	z-index: 7;
+	background: url(../images/section2_bg1.jpg) no-repeat center top;
+	margin-top: -30px;
+	padding-top: 92px;
+	box-sizing: border-box;
+}
+
+#section2::after {
+	content: '';
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	background: url(../images/section2_bg2.jpg) no-repeat center top;
+}
+
+#section2 h2 {
+	height: 76px;
+	background: url(../images/section2_head.png) no-repeat center;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#section2 .container {
+	width: 1200px;
+	margin: 60px auto 0;
+}
+
+#section2 .tabList {
+	display: flex;
+}
+
+#section2 .tabList li {
+	width: 600px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 38px;
+	color: #ffbf05;
+	text-align: center;
+	cursor: pointer;
+	background: url(../images/css-sprites.png) no-repeat -20px -17px;
+}
+
+#section2 .tabList li:hover,
+#section2 .tabList li.active {
+	color: #fff;
+	background-position: -20px -134px;
+}
+
+#section2 .con {
+	height: 440px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	background: url(../images/sec2-cont-bg.png) no-repeat;
+}
+
+#section2 .con>div {
+	/* 选择到.con里的第一层div */
+	display: none;
+}
+
+#section2 .con>div.active {
+	/* 选择到.con里的第一层div */
+	display: flex;
+}
+
+.subTab_1 {
+	justify-content: space-between;
+}
+
+.subTab_1 li {
+	width: 240px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 26px;
+	color: #cbcbcb;
+	background: url(../images/css-sprites.png) no-repeat -268px -389px;
+	cursor: pointer;
+}
+
+.subTab_1 li.active {
+	color: #000;
+	background-position: -268px -509px;
+}
+
+.subTab_1 .tabContent {
+	width: 900px;
+	margin-right: 20px;
+	padding-top: 64px;
+}
+
+.subTab_1 .tabContent>div {
+	display: none;
+}
+
+.subTab_1 .tabContent>div.active {
+	display: flex;
+}
+
+.subTab_1 .text {
+	margin-left: 26px;
+}
+
+.subTab_1 .text h3 {
+	font-size: 20px;
+	color: #ffbf05;
+	text-align: center;
+	margin: 0 auto 16px;
+}
+
+.subTab_1 .text p {
+	font-size: 16px;
+	color: #e4e4e4;
+}
+
+.subTab_2 {
+	padding: 40px 30px 0;
+	justify-content: space-between;
+}
+
+.subTab_2 ul {
+	width: 570px;
+	height: 326px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.subTab_2 li {
+	width: 50%;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	background: url(../images/subTab_bg.png) no-repeat top center;
+}
+
+.subTab_2 li p {
+	font-size: 16px;
+	color: #ffbf05;
+	position: absolute;
+	bottom: 12px;
+	right: 18px;
+}
+
+.subTab_2 .tabContent div {
+	width: 546px;
+	height: 317px;
+	position: relative;
+	background: url(../images/subTab_bg_big.png) no-repeat;
+	display: none;
+}
+
+.subTab_2 .tabContent div.active {
+	display: block;
+}
+
+.subTab_2 .tabContent p {
+	width: 100%;
+	height: 52px;
+	background: rgba(0, 0, 0, .6);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	font-size: 20px;
+	color: #ffbf05;
+	line-height: 52px;
+	text-align: center;
+}
+
+/* section3 */
+.public {
+	height: 880px;
+	position: relative;
+	z-index: 6;
+	background: url(../images/section3_bg1.jpg) no-repeat center top;
+	margin-top: -16px;
+	padding-top: 92px;
+	box-sizing: border-box;
+}
+
+.public::after {
+	content: '';
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	background: url(../images/section3_bg2.png) no-repeat center top;
+}
+
+.public h2 {
+	height: 66px;
+	background: url(../images/section3_head.png) no-repeat center;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.public .container {
+	width: 1400px;
+	margin: 90px auto 0;
+	position: relative;
+}
+
+.public .wrap {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.public ul {
+	display: flex;
+	width: 4800px;
+}
+
+.public li {
+	display: flex;
+}
+
+.public li img,
+.public li .text {
+	width: 600px;
+	height: 424px;
+}
+
+.public li .text {
+	background: rgba(0, 0, 0, .5);
+}
+
+.public h3 {
+	font-size: 26px;
+	color: #000;
+	font-weight: normal;
+	line-height: 62px;
+	text-align: center;
+	background: #ffbf05;
+}
+
+.public p {
+	width: 540px;
+	height: 280px;
+	padding: 0 10px;
+	margin: 40px auto 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #e4e4e4;
+	line-height: 30px;
+}
+
+.public .btn {
+	width: 57px;
+	height: 115px;
+	position: absolute;
+	top: 50%;
+	margin-top: -58px;
+	background: url(../images/css-sprites.png);
+	cursor: pointer;
+}
+
+.public .prev {
+	left: 0;
+	background-position: -24px -255px;
+}
+
+.public .prev:hover {
+	background-position: -99px -255px;
+}
+
+.public .next {
+	right: 0;
+	background-position: -184px -255px;
+}
+
+.public .next:hover {
+	background-position: -266px -255px;
+}
+
+.public .circle {
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+}
+
+.public .circle span {
+	width: 21px;
+	height: 21px;
+	background: #898179;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 0 5px;
+}
+
+.public .circle span.active {
+	background: #ffbf05;
 }
