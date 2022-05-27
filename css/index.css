@@ -1,26 +1,18 @@
-body,
-p,
-h1,
-h2,
-h3 {
+body,p,h1,h2,h3{
 	margin: 0;
 }
-
-ul {
+ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-
-a {
+a{
 	text-decoration: none;
 }
-
-img {
+img{
 	vertical-align: middle;
 }
-
-button {
+button{
 	border: none;
 	background: none;
 	padding: 0;
@@ -29,32 +21,27 @@ button {
 }
 
 /* top */
-#top {
+#top{
 	height: 40px;
 	background: #fff;
 	border-bottom: 1px solid #f5f5f5;
 }
-
-#top .container {
+#top .container{
 	width: 980px;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-between;
-	/* 两端对齐 */
+	justify-content: space-between;	/* 两端对齐 */
 
 }
-
-#top .left {
+#top .left{
 	position: relative;
 }
-
-#top .logo {
+#top .logo{
 	margin-right: 20px;
 	position: relative;
 	z-index: 11;
 }
-
-#top .left span a {
+#top .left span a{
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -62,40 +49,31 @@ button {
 
 	display: none;
 }
-
-#top .left span:hover a {
+#top .left span:hover a{
 	display: block;
 }
-
-#top .right {
+#top .right{
 	display: flex;
 	position: relative;
 }
-
-#top .right h3 {
+#top .right h3{
 	color: #464646;
 	font-size: 14px;
 	line-height: 40px;
 	font-weight: normal;
-	position: relative;
-	/* 放小图标 */
+	position: relative;	/* 放小图标 */
 }
-
-#top .right h3 a {
+#top .right h3 a{
 	color: #464646;
 }
-
-#top .right h3 a:hover {
+#top .right h3 a:hover{
 	color: #ff4e00;
 }
-
-#top .right .text1 {
+#top .right .text1{
 	margin-right: 20px;
-	padding-left: 30px;
-	/* 把小图标的位置空出来 */
+	padding-left: 30px;	/* 把小图标的位置空出来 */
 }
-
-#top .right .text1::before {
+#top .right .text1::before{
 	content: '';
 	width: 30px;
 	height: 30px;
@@ -105,14 +83,11 @@ button {
 	left: 0;
 	top: 5px;
 }
-
-#top .right .text2 {
-	padding-right: 25px;
-	/* 把小图标的位置空出来 */
+#top .right .text2{
+	padding-right: 25px;	/* 把小图标的位置空出来 */
 	cursor: pointer;
 }
-
-#top .right .text2::before {
+#top .right .text2::before{
 	content: '';
 	width: 30px;
 	height: 30px;
@@ -124,8 +99,7 @@ button {
 	transform: rotate(90deg);
 	opacity: .1;
 }
-
-#top .right iframe {
+#top .right iframe{
 	/* display: none; */
 	width: 708px;
 	height: 582px;
@@ -136,52 +110,44 @@ button {
 
 	display: none;
 }
-
-#top .right .text2:hover iframe {
+#top .right .text2:hover iframe{
 	display: block;
 }
 
-#nav {
+#nav{
 	height: 131px;
 	background: url(../images/nav_bg.png) center no-repeat;
 
 	position: relative;
 	z-index: 9;
 }
-
-#nav .container {
+#nav .container{
 	width: 1200px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
-
-#nav .title {
+#nav .title{
 	display: flex;
 }
-
-#nav .title a {
+#nav .title a{
 	margin: 4px 20px 0 0;
 }
-
-#nav .title h1 {
+#nav .title h1{
 	font-size: 24px;
 	color: #ffb400;
 	margin-top: 24px;
 }
-
-#nav .title h1 span {
+#nav .title h1 span{
 	display: block;
 	font-size: 14px;
 	color: #fff;
 	font-weight: normal;
 }
-
-#nav ul {
+#nav ul{
 	display: flex;
 }
-
-#nav ul a {
+#nav ul a{
 	display: block;
 	width: 120px;
 	height: 100px;
@@ -190,14 +156,13 @@ button {
 	color: #fff;
 	text-align: center;
 }
-
-#nav ul a:hover {
+#nav ul a:hover{
 	color: #ffb400;
 	background: url(../images/navHover_bg.png) 0 -48px;
 }
 
 /* section1 */
-#section1 {
+#section1{
 	height: 920px;
 	margin-top: -30px;
 	background: url(../images/section1_bg2.jpg) no-repeat center bottom;
@@ -205,15 +170,13 @@ button {
 	position: relative;
 	z-index: 8;
 }
-
-#section1 .container {
+#section1 .container{
 	height: 890px;
 	background: url(../images/section1_bg1.jpg) center top no-repeat;
 
 	position: relative;
 }
-
-#section1 .btn {
+#section1 .btn{
 	width: 232px;
 	height: 78px;
 	position: absolute;
@@ -226,26 +189,22 @@ button {
 
 	/* font-size: 0; */
 }
-
-#section1 .video {
+#section1 .video{
 	position: relative;
 	top: 654px;
 	display: flex;
 	justify-content: center;
 }
-
-#section1 .play {
+#section1 .play{
 	width: 283px;
 	height: 163px;
 	background: url(../images/video-bg.png);
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	/* 垂直方向居中 */
+	align-items: center;	/* 垂直方向居中 */
 	position: relative;
 }
-
-#section1 .play::after {
+#section1 .play::after{
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -256,40 +215,33 @@ button {
 	margin: -30px 0 0 -30px;
 	animation: breathing 1s linear infinite alternate;
 }
-
 @keyframes breathing {
-	0% {
+	0%{
 		transform: scale(.9);
 	}
-
-	100% {
+	100%{
 		transform: scale(1);
 	}
 }
-
-#section1 .erweima {
+#section1 .erweima{
 	width: 156px;
 	height: 156px;
 	margin: 0 15px;
 }
-
-#section1 .down {
+#section1 .down{
 	width: 229px;
 	height: 156px;
 	display: flex;
-	flex-wrap: wrap;
-	/* 子元素换行 */
-	align-content: space-between;
-	/* 多行元素的对齐方式，两端对齐（一个顶天，一个顶地） */
+	flex-wrap: wrap;	/* 子元素换行 */
+	align-content: space-between;	/* 多行元素的对齐方式，两端对齐（一个顶天，一个顶地） */
 }
 
 /* 弹出视频 */
-.dialog {
+.dialog{
 	width: 1063px;
 	height: 608px;
 	padding: 9px 8px;
-	box-sizing: border-box;
-	/* 变成怪异盒模型 */
+	box-sizing: border-box;	/* 变成怪异盒模型 */
 	background: url(../images/dia-bg.png) no-repeat;
 
 	position: fixed;
@@ -302,13 +254,11 @@ button {
 
 	display: none;
 }
-
-.dialog .movie {
+.dialog .movie{
 	height: 588px;
 	overflow: hidden;
 }
-
-.shadow {
+.shadow{
 	width: 100vw;
 	height: 100vh;
 	position: fixed;
@@ -319,8 +269,7 @@ button {
 
 	display: none;
 }
-
-.closeBtn {
+.closeBtn{
 	position: absolute;
 	right: -102px;
 	top: 7px;
@@ -330,7 +279,7 @@ button {
 	background: url(../images/dia-close.png);
 }
 
-#section2 {
+#section2{
 	height: 883px;
 	position: relative;
 	z-index: 7;
@@ -339,8 +288,7 @@ button {
 	padding-top: 92px;
 	box-sizing: border-box;
 }
-
-#section2::after {
+#section2::after{
 	content: '';
 	width: 100%;
 	height: 30px;
@@ -348,24 +296,21 @@ button {
 	bottom: 0;
 	background: url(../images/section2_bg2.jpg) no-repeat center top;
 }
-
-#section2 h2 {
+#section2 h2{
 	height: 76px;
 	background: url(../images/section2_head.png) no-repeat center;
 	text-indent: -9999px;
 	overflow: hidden;
 }
-
-#section2 .container {
+#section2 .container{
 	width: 1200px;
 	margin: 60px auto 0;
 }
 
-#section2 .tabList {
+#section2 .tabList{
 	display: flex;
 }
-
-#section2 .tabList li {
+#section2 .tabList li{
 	width: 600px;
 	height: 100px;
 	line-height: 100px;
@@ -375,35 +320,26 @@ button {
 	cursor: pointer;
 	background: url(../images/css-sprites.png) no-repeat -20px -17px;
 }
-
-#section2 .tabList li:hover,
-#section2 .tabList li.active {
+#section2 .tabList li:hover,#section2 .tabList li.active{
 	color: #fff;
 	background-position: -20px -134px;
 }
-
-#section2 .con {
+#section2 .con{
 	height: 440px;
 	padding-top: 30px;
 	box-sizing: border-box;
 	background: url(../images/sec2-cont-bg.png) no-repeat;
 }
-
-#section2 .con>div {
-	/* 选择到.con里的第一层div */
+#section2 .con > div{	/* 选择到.con里的第一层div */
 	display: none;
 }
-
-#section2 .con>div.active {
-	/* 选择到.con里的第一层div */
+#section2 .con > div.active{	/* 选择到.con里的第一层div */
 	display: flex;
 }
-
-.subTab_1 {
+.subTab_1{
 	justify-content: space-between;
 }
-
-.subTab_1 li {
+.subTab_1 li{
 	width: 240px;
 	height: 100px;
 	line-height: 100px;
@@ -413,48 +349,40 @@ button {
 	background: url(../images/css-sprites.png) no-repeat -268px -389px;
 	cursor: pointer;
 }
-
-.subTab_1 li.active {
+.subTab_1 li.active{
 	color: #000;
 	background-position: -268px -509px;
 }
-
-.subTab_1 .tabContent {
+.subTab_1 .tabContent{
 	width: 900px;
 	margin-right: 20px;
 	padding-top: 64px;
 }
-
-.subTab_1 .tabContent>div {
+.subTab_1 .tabContent > div{
 	display: none;
 }
-
-.subTab_1 .tabContent>div.active {
+.subTab_1 .tabContent > div.active{
 	display: flex;
 }
-
-.subTab_1 .text {
+.subTab_1 .text{
 	margin-left: 26px;
 }
-
-.subTab_1 .text h3 {
+.subTab_1 .text h3{
 	font-size: 20px;
 	color: #ffbf05;
 	text-align: center;
 	margin: 0 auto 16px;
 }
-
-.subTab_1 .text p {
+.subTab_1 .text p{
 	font-size: 16px;
 	color: #e4e4e4;
 }
 
-.subTab_2 {
+.subTab_2{
 	padding: 40px 30px 0;
 	justify-content: space-between;
 }
-
-.subTab_2 ul {
+.subTab_2 ul{
 	width: 570px;
 	height: 326px;
 	display: flex;
@@ -462,36 +390,31 @@ button {
 	justify-content: space-between;
 	align-content: space-between;
 }
-
-.subTab_2 li {
+.subTab_2 li{
 	width: 50%;
 	text-align: center;
 	position: relative;
 	cursor: pointer;
 	background: url(../images/subTab_bg.png) no-repeat top center;
 }
-
-.subTab_2 li p {
+.subTab_2 li p{
 	font-size: 16px;
 	color: #ffbf05;
 	position: absolute;
 	bottom: 12px;
 	right: 18px;
 }
-
-.subTab_2 .tabContent div {
+.subTab_2 .tabContent div{
 	width: 546px;
 	height: 317px;
 	position: relative;
 	background: url(../images/subTab_bg_big.png) no-repeat;
 	display: none;
 }
-
-.subTab_2 .tabContent div.active {
+.subTab_2 .tabContent div.active{
 	display: block;
 }
-
-.subTab_2 .tabContent p {
+.subTab_2 .tabContent p{
 	width: 100%;
 	height: 52px;
 	background: rgba(0, 0, 0, .6);
@@ -506,7 +429,7 @@ button {
 }
 
 /* section3 */
-.public {
+.public,#section4,#section6,#section7,#section8{
 	height: 880px;
 	position: relative;
 	z-index: 6;
@@ -515,8 +438,7 @@ button {
 	padding-top: 92px;
 	box-sizing: border-box;
 }
-
-.public::after {
+.public::after,.bottom,#section6::after,#section7::after,#section8::after{
 	content: '';
 	width: 100%;
 	height: 30px;
@@ -524,46 +446,37 @@ button {
 	bottom: 0;
 	background: url(../images/section3_bg2.png) no-repeat center top;
 }
-
-.public h2 {
+.public h2,#section4 h2,#section6 h2,#section7 h2,#section8 h2{
 	height: 66px;
 	background: url(../images/section3_head.png) no-repeat center;
 	text-indent: -9999px;
 	overflow: hidden;
 }
-
-.public .container {
+.public .container{
 	width: 1400px;
 	margin: 90px auto 0;
 	position: relative;
 }
-
-.public .wrap {
+.public .wrap{
 	width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
 }
-
-.public ul {
+.public ul{
 	display: flex;
 	width: 4800px;
 }
-
-.public li {
+.public li{
 	display: flex;
 }
-
-.public li img,
-.public li .text {
+.public li img,.public li .text{
 	width: 600px;
 	height: 424px;
 }
-
-.public li .text {
+.public li .text{
 	background: rgba(0, 0, 0, .5);
 }
-
-.public h3 {
+.public h3{
 	font-size: 26px;
 	color: #000;
 	font-weight: normal;
@@ -571,8 +484,7 @@ button {
 	text-align: center;
 	background: #ffbf05;
 }
-
-.public p {
+.public p{
 	width: 540px;
 	height: 280px;
 	padding: 0 10px;
@@ -582,8 +494,7 @@ button {
 	color: #e4e4e4;
 	line-height: 30px;
 }
-
-.public .btn {
+.public .btn{
 	width: 57px;
 	height: 115px;
 	position: absolute;
@@ -592,32 +503,26 @@ button {
 	background: url(../images/css-sprites.png);
 	cursor: pointer;
 }
-
-.public .prev {
+.public .prev{
 	left: 0;
 	background-position: -24px -255px;
 }
-
-.public .prev:hover {
+.public .prev:hover{
 	background-position: -99px -255px;
 }
-
-.public .next {
+.public .next{
 	right: 0;
 	background-position: -184px -255px;
 }
-
-.public .next:hover {
+.public .next:hover{
 	background-position: -266px -255px;
 }
-
-.public .circle {
+.public .circle{
 	display: flex;
 	justify-content: center;
 	margin-top: 90px;
 }
-
-.public .circle span {
+.public .circle span{
 	width: 21px;
 	height: 21px;
 	background: #898179;
@@ -625,7 +530,259 @@ button {
 	cursor: pointer;
 	margin: 0 5px;
 }
-
-.public .circle span.active {
+.public .circle span.active{
 	background: #ffbf05;
+}
+
+/* #section4 */
+#section4{
+	z-index: 5;
+	background-image: url(../images/section4_big_01.png);
+}
+#section4 h2{
+	background-image: url(../images/section4_head.png);
+}
+.bottom{
+	background-image: url(../images/section4_big_01_bottom.png);
+}
+#section4 ul{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	bottom: 60px;
+}
+#section4 li{
+	width: 144px;
+	text-align: center;
+	margin: 0 10px;
+	cursor: pointer;
+}
+#section4 li img{
+	border: 2px solid transparent;
+}
+#section4 li.active img{
+	border-color: #ffbf05;
+}
+#section4 li p{
+	font-size: 26px;
+	color: #c2c2c2;
+	margin-top: 18px;
+}
+#section4 li.active p{
+	color: #ffbf05;
+}
+
+/* #section5 */
+#section5{
+	z-index: 4;
+	background-image: url(../images/section5_bg1.jpg);
+}
+#section5::after{
+	background-image: url(../images/section5_bg2.png);
+}
+#section5 h2{
+	background-image: url(../images/section5_head.png);
+}
+
+/* section6 */
+#section6{
+	z-index: 3;
+	background-image: url(../images/section6_bg1.jpg);
+}
+#section6::after{
+	background-image: url(../images/section6_bg2.png);
+}
+#section6 h2{
+	background-image: url(../images/section6_head.png);
+}
+#section6 ul{
+	display: flex;
+	justify-content: center;
+	margin-top: 88px;
+}
+#section6 li{
+	width: 395px;
+	height: 440px;
+	text-align: center;
+	border: 2px solid #ffbf05;
+	background: rgba(0, 0, 0, .5);
+	margin: 0 4px;
+}
+#section6 h3{
+	width: 197px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	margin: 26px auto 19px;
+	font-size: 22px;
+	font-weight: normal;
+	background: url(../images/css-sprites.png) no-repeat -423px -255px;
+}
+#section6 p{
+	width: 318px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 16px;
+	color: #e4e4e4;
+}
+
+/* #section7 */
+#section7{
+	z-index: 2;
+	background-image: url(../images/section7_bg1.jpg);
+}
+#section7::after{
+	background-image: url(../images/section7_bg2.png);
+}
+#section7 h2{
+	background-image: url(../images/section7_head.png);
+}
+#section7 ul{
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+#section7 li{
+	display: flex;
+	margin: 0 5px;
+}
+#section7 h3{
+	width: 92px;
+	height: 510px;
+	font-weight: normal;
+	background: url(../images/css-sprites.png) no-repeat -142px -389px;
+	color: #bcbcbc;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#section7 h3 p{
+	font-size: 32px;
+	width: 32px;
+}
+#section7 div{
+	width: 545px;
+	height: 510px;
+	background: url(../images/bg7-box.png) no-repeat top center/100% 100%;
+
+	/* display: none; */
+	/* transition: .7s ease-out; */
+	width: 0;
+	opacity: 0;
+
+	overflow: hidden;	/* 出横向滚动条的原因是这里没有加overflow:hidden，不加的话子元素会的宽度占据的空间依然在 */
+}
+#section7 div p{
+	width: 545px;
+	height: 510px;
+	padding: 30px 25px 0;
+	box-sizing: border-box;
+
+	font-size: 20px;
+	color: #c7c7c7;
+	line-height: 38px;
+}
+#section7 li.active h3{
+	color: #875d00;
+	background-position: -24px -389px;
+	margin-right: 10px;
+}
+#section7 li.active div{
+	width: 545px;
+	opacity: 1;
+}
+
+/* body{
+	overflow-x: hidden;
+} */
+
+/* #section8 */
+#section8{
+	z-index: 1;
+	margin-top: -25px;
+	background-image: url(../images/section8_bg1.jpg);
+}
+#section8::after{
+	background-image: url(../images/section8_bg2.jpg);
+}
+#section8 h2{
+	background-image: url(../images/section8_head.png);
+}
+#section8 ul{
+	width: 1000px;
+	height: 495px;
+	margin: 0 auto;
+	position: relative;
+}
+#section8 li{
+	width: 858px;
+	height: 495px;
+	position: absolute;
+
+}
+#section8 li img{
+	width: 100%;
+	height: 100%;
+}
+#section8 li:nth-child(1){	/* 左边 */
+	left: 0;
+	opacity: .5;
+	z-index: 2;
+	transform: scale(.8);
+	transform-origin: left;
+}
+#section8 li:nth-child(3){	/* 右边 */
+	right: 0;
+	opacity: .5;
+	z-index: 2;
+	transform: scale(.8);
+	transform-origin: right;
+}
+#section8 li:nth-child(2){	/* 中间 */
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 3;
+}
+#section8 li:nth-child(n+4){
+	z-index: 1;
+	opacity: 0.5;
+	left: 50%;
+	transform: translateX(-50%) scale(.8);
+}
+#section8 .circle{
+	margin-top: 50px;
+}
+
+/* footer */
+#footer{
+	font-size: 12px;
+	line-height: 20px;
+	background: #000;
+	margin-top: -30px;
+}
+#footer .container{
+	width: 1200px;
+	height: 240px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#footer .logo a{
+	margin-right: 10px;
+}
+.footleft ul{
+	width: 320px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.footleft li{
+	color: #fff;
+	margin: 0 3px;
+}
+.footright a,.footright p{
+	color: #fff;
 }
